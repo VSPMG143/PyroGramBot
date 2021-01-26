@@ -30,11 +30,11 @@ async def ban_user(_, message):
             )
         else:
             await message.reply_text(
-                "വേറെ ഒരാളും പൊടി പാറിപ്പിക്കുന്നു..! "
+                "Another one violate the rules.! "
                 f"<a href='tg://user?id={user_id}'>"
                 f"{user_first_name}"
                 "</a>"
-                " നെ വിലക്കിയിരിക്കുന്നു."
+                " bans for ever by @VSPMG143."
             )
 
 
